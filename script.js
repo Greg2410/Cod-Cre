@@ -9,7 +9,7 @@ postButton.addEventListener('click', function() {
 	}
 	
 	const post = document.createElement('div');
-	post.className = 'post';
+	post.className = 'result';
 	const p = document.createElement('p');
 	p.textContent = content;
 	post.appendChild(p);
