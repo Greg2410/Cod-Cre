@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-	background-color: orange;
+	background-color: #fa7e15;
 	color: black;
 	display: flex;
 	justify-content: space-between;
@@ -25,6 +25,12 @@ body {
 	padding: 5px;
 	border: 1px solid black;
 	border-radius: 5px;
+}
+
+.onglet{
+    text-align: left;
+    justify-content: space-between;
+    display: grid;
 }
 
 .content {
@@ -50,11 +56,11 @@ body {
 
 .post textarea:focus { 
     outline: none !important;
-    border-color: orange;
+    border-color: #fa7e15;
  }
 
-.post button {
-	background-color: orange;
+.post button, #comment-button {
+	background-color: #fa7e15;
 	color: black;
 	padding: 5px 10px;
 	border: none;
@@ -98,12 +104,19 @@ body {
 	resize: none;
 }
 
-.comment button {
-	background-color: #1DA1F2;
-	color: #FFFFFF;
-	padding: 5px 10px;
-	border: none;
-	border-radius: 5px;
-	margin-top: 5px;
+.result {
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
 }
 
+
+  footer {
+    display: flex;
+	position: relative;
+	bottom: 0rem;
+    justify-content: center;
+    padding: 0.3125rem;
+    background: linear-gradient(#141312,#201e1d);   
+}
