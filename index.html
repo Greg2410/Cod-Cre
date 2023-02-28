@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Twitter Like</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1 onclick="myFunc()">Twitter Like</h1>
+		<a href="login.html">Se connecter</a>
+		<a href="register.html">S'inscrire</a>
+	</div>
+	<div class="content">
+		<div class="post">
+			<h2>Nouveau Post</h2>
+			<textarea id="post-content" placeholder="Quoi de neuf ?"></textarea>
+			<button id="post-button">Publier</button>
+		</div>
+		<div class="posts">
+			<h2>Les derniers posts</h2>
+			<div id="post-list"></div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
