@@ -36,7 +36,6 @@ postButton.addEventListener('click', function() {
 	})
 });
 
-
 function myFunc() {
 	window.location.href = "index.html";
 }

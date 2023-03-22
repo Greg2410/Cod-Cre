@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-	background-color: #fa7e15;
+	background-color: #4aa181;
 	color: black;
 	display: flex;
 	justify-content: space-between;
@@ -19,25 +19,12 @@ body {
 	cursor: pointer;
 }
 
-.header img {
-	background-color: black;
-	padding: 10px;
-	height: 10%;
-	width: 10%;
-}
-
 .header a{
 	color: black;
 	text-decoration: none;
 	padding: 5px;
 	border: 1px solid black;
 	border-radius: 5px;
-}
-
-.onglet{
-    text-align: left;
-    justify-content: space-between;
-    display: grid;
 }
 
 .content {
@@ -63,11 +50,11 @@ body {
 
 .post textarea:focus { 
     outline: none !important;
-    border-color: #fa7e15;
+    border-color: orange;
  }
 
-.post button, #comment-button {
-	background-color: #fa7e15;
+.post button {
+	background-color: #4aa181;
 	color: black;
 	padding: 5px 10px;
 	border: none;
@@ -111,19 +98,12 @@ body {
 	resize: none;
 }
 
-.result {
-	border: 1px solid #CCCCCC;
-	padding: 10px;
-	margin-bottom: 10px;
-	overflow: auto;
+.comment button {
+	background-color: #4aa181;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 5px;
 }
 
-
-  footer {
-    display: flex;
-	position: relative;
-	bottom: 0rem;
-    justify-content: center;
-    padding: 0.3125rem;
-    background: linear-gradient(#141312,#201e1d);   
-}
