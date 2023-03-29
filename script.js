@@ -1,17 +1,26 @@
 const postContent = document.getElementById('post-content');
 const postButton = document.getElementById('post-button');
 const postList = document.getElementById('post-list');
+const postlog = document.getElementById('log');
+
 
 postButton.addEventListener('click', function() {
 	const content = postContent.value;
-	if (content.trim() === '') {
+	const contentlog = postlog.value;
+	if (content.trim() === '' && contentlog.trim() === '') {
 		return;
 	}
 	
+	
+
 	const post = document.createElement('div');
 	post.className = 'result';
+	const textlogin = document.createElement('p')
+	const login = document.createElement('p');
 	const p = document.createElement('p');
 	p.textContent = content;
+	login.textContent = contentlog;
+	post.appendChild(login);
 	post.appendChild(p);
 	postList.prepend(post);
 	

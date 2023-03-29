@@ -8,7 +8,7 @@
     }
     
     .header {
-        background-color: #fa7e15;
+        background-color: #4aa181;
         color: black;
         display: flex;
         justify-content: space-between;
@@ -51,11 +51,11 @@
     
     .post textarea:focus { 
         outline: none !important;
-        border-color: #fa7e15;
+        border-color: #4aa181;
      }
     
     .post button, #comment-button {
-        background-color: #fa7e15;
+        background-color: #4aa181;
         color: black;
         padding: 5px 10px;
         border: none;
@@ -100,7 +100,7 @@
     }
     
     .comment button {
-        background-color: #fa7e15;
+        background-color: #4aa181;
         color: #FFFFFF;
         padding: 5px 10px;
         border: none;
