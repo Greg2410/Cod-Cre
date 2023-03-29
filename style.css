@@ -50,7 +50,7 @@ body {
 
 .post textarea:focus { 
     outline: none !important;
-    border-color: orange;
+    border-color: #4aa181;
  }
 
 .post button {
@@ -107,3 +107,18 @@ body {
 	margin-top: 5px;
 }
 
+.result {
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+#log{
+	max-height: 10px;
+	max-width: 300px;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 1.5;
+	resize: none;
+}
