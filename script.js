@@ -15,11 +15,10 @@ postButton.addEventListener('click', function() {
 
 	const post = document.createElement('div');
 	post.className = 'result';
-	const textlogin = document.createElement('p')
 	const login = document.createElement('p');
 	const p = document.createElement('p');
-	p.textContent = content;
-	login.textContent = contentlog;
+	p.textContent = "Contenu : " + content;
+	login.textContent = "Utilisateurs : " + contentlog;
 	post.appendChild(login);
 	post.appendChild(p);
 	postList.prepend(post);
