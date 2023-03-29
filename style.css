@@ -114,6 +114,21 @@ body {
 	overflow: auto;
 }
 
+.result button {
+	background-color: #4aa181;
+	color: black;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.posts{
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
 #log{
 	max-height: 10px;
 	max-width: 300px;
