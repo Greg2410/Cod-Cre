@@ -12,7 +12,6 @@ postButton.addEventListener('click', function() {
 	}
 	
 	
-
 	const post = document.createElement('div');
 	post.className = 'result';
 	const login = document.createElement('p');
